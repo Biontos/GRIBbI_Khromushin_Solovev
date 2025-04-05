@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MushroomsApp.AddEditPage"
+             Title="Добавить / Редактировать игру">
+
+    <VerticalStackLayout Padding="10">
+        <Entry x:Name="NameEntry" Placeholder="Название игры" />
+        <Editor x:Name="DescriptionEditor" Placeholder="Описание игры" AutoSize="TextChanges"/>
+        <Button Text="Сохранить" Clicked="OnSaveClicked" />
+    </VerticalStackLayout>
+</ContentPage>
